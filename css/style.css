@@ -1,0 +1,345 @@
+/* #Resets
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;  }
+
+
+
+/* #Universal and Default Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+    background: url();
+    color: #ddd;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+a {text-decoration:none;}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 10;
+   
+}
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.container {
+   
+    width: 100%;
+    color: black;
+    padding-left: 10;
+  
+    
+   
+}
+
+.ul-reset {
+   z-index: 100%;
+   margin-top: 0;
+   margin-bottom: 0;
+    list-style:none;
+    font-size: 15px;
+   margin-left: 0;
+   
+    
+
+}
+.no-margin{
+    padding:0;
+    margin: 0;
+    
+}
+/*top navigation menu*/
+
+.topmenu{
+    width: 100%;
+    position: relative;
+    
+    
+}
+.topmenu >ul >li{
+    width: 15.6%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  
+}
+
+
+/* #Navigation Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+    background: #424242;
+    font-size: 0;
+    position: relative;
+    width: 100%;
+    z-index: 100%;
+}
+
+nav > ul > li {
+    display: inline-block;
+    width: 10.11%;
+    font-size: 14px;
+    padding: 0 10px;
+    position:absolute;
+}
+nav > ul > li:first-child {padding-left: 0;}
+n: ;av > ul > li:last-child {padding-right: 0;}
+nav > ul > li > a {
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+}
+nav > ul > li:hover > a {
+    color: #69aae0; 
+    border-bottom: 3px solid #69aae0;
+}
+
+
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mega-menu {
+    background: #f0f0f0;
+    display: none;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    z-index: 9999;
+    
+}
+.mega-menu h3 {color: #444;}
+.mega-menu ul {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    width: 205px;
+   
+}
+.mega-menu ul:last-child {margin-right: 0;}
+.mega-menu a {
+    border-bottom: 1px solid #ddd;
+    color: #4ea3d8;
+    display: block;
+    padding: 10px 0;
+}
+.mega-menu a:hover {color: #2d6a91;}
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {position: static;
+ font-size: 15px;
+/*letter-spacing: 0.25px; */
+}
+.droppable > a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 12px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+    padding: 0px;
+}
+.droppable:hover .mega-menu {display: block;}
+
+
+
+/* #Browser Clearfix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {clear: both;}
+
+.myLoginModel{
+    height: 480px;
+    width: 480px;
+-webkit-clip-path: circle(50% at 15% 35%);
+clip-path: circle(50% at 15% 35%);
+background-color: #fff; 
+}
+.login
+{
+    
+/*    background-color: #fff;  */
+    height: 100%;
+    width:100%;
+/*    background-color: rgb(40,116,240);*/
+}
+login > info{
+    border-style: inset;
+    
+    
+    
+}
+
+/*
+---------------------------------------------
+                 Footer Start
+---------------------------------------------->
+*/
+#footer {
+  background: #00428a;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+
+}
+
+#footer .footer-top {
+  background: black;
+  padding: 60px 0 30px 0;
+    
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ecf5ff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #0067d5;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 8px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #74b5fc;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+    color: #fff;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #007bff;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #0062cc;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #f1f7ff;
+}
+
+#footer .credits a {
+  color: #bfddfe;
+}
+
+#footer .credits a:hover {
+  color: #f1f7ff;
+}
+/*
+------------------------------------
+Footer End
+----------------------------------*/
